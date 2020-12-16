@@ -1,7 +1,6 @@
 import {Navbar} from 'react-bootstrap'
 import {Nav} from 'react-bootstrap'
 import {Route} from 'react-router-dom'
-import {Redirect} from 'react-router-dom'
 import {BrowserRouter} from 'react-router-dom'
 import home from './Views/home.js'
 import AboutMe from './Views/AboutMe.js'
