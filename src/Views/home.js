@@ -6,7 +6,7 @@ import img1 from './img1.jpg'
 import CardDeck from 'react-bootstrap/CardGroup'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import img2 from './img2.jpg'
-import img4 from './img4.jpg'
+import img6 from './img6.jpg'
 import Container from 'react-bootstrap/Container'
 import './card-style.css'
 
@@ -41,11 +41,11 @@ return(
     </Card.Body>
     </Card>
     <Card className= "card-style" style={{ width: '480rem' }}>
-    <Card.Img variant="top" src={img4} />
+    <Card.Img variant="top" src={img6} />
     <Card.Body>
-        <Card.Title>TrailBlazin App</Card.Title>
+        <Card.Title>Checkers App</Card.Title>
         <Card.Text>
-        This is a website I collaborated on that allows users to search hikes close to them.
+        This is a checkers app I made using react. Currently working on an AI feature the game.
         </Card.Text>
         <Button variant="primary">View Project</Button>
     </Card.Body>
