@@ -2,11 +2,12 @@
 .card-style {
     max-width: 18rem;
     max-height: 18rem;
-    display: 'flex';
+    /*display: 'flex';*/
     margin-right: 10rem;
     margin-left: 10rem;
     margin-top: 1rem;
-  }
+}
+
 
 .class {
     display: inline-block;

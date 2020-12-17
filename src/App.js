@@ -20,6 +20,7 @@ function App() {
     </Navbar>
     </BrowserRouter>
 
+    <div className='background'>
     <BrowserRouter>
     <div className="content">
             <Route exact path="/" component={home}/>
@@ -27,6 +28,7 @@ function App() {
             <Route path="/UnderDev" component={UnderDev}/>
     </div>
     </BrowserRouter>
+    </div>
     </>
   );
   
