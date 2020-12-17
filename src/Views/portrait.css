@@ -1,0 +1,28 @@
+
+.sizing{
+    min-width: 1000px;
+    height: auto;
+    width: 100%;    
+}
+.portrait {
+    max-width: 15rem;
+    max-height: 15rem;
+    position: flex;
+    top: 50%;
+    left: 80%;
+    margin-top: 40px;
+    margin-left: 20rem;
+    margin-bottom: 40px;
+
+  }
+
+  .info{
+
+    max-width: 25rem;
+    max-height: 50rem;
+    position: flex;
+    margin-left: 13rem;
+    margin-bottom: 40px;
+    
+
+  }
