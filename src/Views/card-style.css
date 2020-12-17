@@ -1,8 +1,7 @@
 
 .card-style {
-    max-width: 18rem;
-    max-height: 18rem;
-    /*display: 'flex';*/
+    max-width: 50rem;
+    max-height: 30rem;
     margin-right: 10rem;
     margin-left: 10rem;
     margin-top: 1rem;
