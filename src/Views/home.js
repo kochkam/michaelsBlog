@@ -47,7 +47,7 @@ return(
         <Card.Text>
         This is a checkers app I made using react. Currently working on an AI feature the game.
         </Card.Text>
-        <Button variant="primary">View Project</Button>
+        <Button href="https://checkers-game-kochka.herokuapp.com/"variant="primary">View Project</Button>
     </Card.Body>
     </Card>
 
