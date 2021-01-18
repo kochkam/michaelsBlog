@@ -21,3 +21,9 @@
     align-items: center;
 
 }
+
+.cardStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

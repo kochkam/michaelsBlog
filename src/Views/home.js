@@ -22,7 +22,7 @@ return(
 <CardDeck className="deck">
     <Card className= "card-style">
     <Card.Img variant="top" src={img2}/>
-    <Card.Body>
+    <Card.Body className="card-style">
         <Card.Title>Dungeon Crawler</Card.Title>
         <Card.Text>
         This is a simple text based dungeon crawler game which was written in C++. 
@@ -32,7 +32,7 @@ return(
     </Card>
     <Card className= "card-style">
     <Card.Img variant="top" src={img1} />
-    <Card.Body>
+    <Card.Body className="card-style">
         <Card.Title>Top Words Hash</Card.Title>
         <Card.Text>
         This project utilizes a hash map with a linked list which can count the top words used in a file.
@@ -42,7 +42,7 @@ return(
     </Card>
     <Card className= "card-style">
     <Card.Img variant="top" src={img6} />
-    <Card.Body className>
+    <Card.Body className="card-style">
         <Card.Title>Checkers App</Card.Title>
         <Card.Text>
         This is a checkers app I made using react. Currently working on an AI feature for the game.
