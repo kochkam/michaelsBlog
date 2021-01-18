@@ -19,7 +19,7 @@ return(
 <Container className='class'>
     <h1>My Projects</h1>
 </Container>
-<CardDeck>
+<CardDeck className="deck">
     <Card className= "card-style">
     <Card.Img variant="top" src={img2}/>
     <Card.Body>
@@ -45,7 +45,7 @@ return(
     <Card.Body className>
         <Card.Title>Checkers App</Card.Title>
         <Card.Text>
-        This is a checkers app I made using react. Currently working on an AI feature the game.
+        This is a checkers app I made using react. Currently working on an AI feature for the game.
         </Card.Text>
         <Button href="https://checkers-game-kochka.herokuapp.com/"variant="primary">View Project</Button>
     </Card.Body>

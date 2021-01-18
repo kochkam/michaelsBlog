@@ -14,3 +14,10 @@
     top: 0;
     left: 0;
 }
+
+.deck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
