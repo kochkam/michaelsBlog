@@ -20,7 +20,7 @@ return(
     <h1>My Projects</h1>
 </Container>
 <CardDeck className="deck">
-    <Card className= "card-style">
+    <Card >
     <Card.Img variant="top" src={img2}/>
     <Card.Body >
         <Card.Title>Dungeon Crawler</Card.Title>
@@ -30,7 +30,7 @@ return(
         <Button href="https://github.com/kochkam/Dungeon-Crawler"variant="primary">View Project</Button>
     </Card.Body>
     </Card>
-    <Card className= "card-style">
+    <Card >
     <Card.Img variant="top" src={img1} />
     <Card.Body >
         <Card.Title>Top Words Hash</Card.Title>
@@ -40,7 +40,7 @@ return(
         <Button href="https://github.com/kochkam/Data-Structure-Hash-Python" variant="primary">View Project</Button>
     </Card.Body>
     </Card>
-    <Card className= "card-style">
+    <Card >
     <Card.Img variant="top" src={img6} />
     <Card.Body >
         <Card.Title>Checkers App</Card.Title>
