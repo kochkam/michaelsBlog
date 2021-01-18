@@ -16,38 +16,39 @@ class Home extends Component{
 render(){
 return(
     <>
-<Container className='class'>
+<div className='class'>
     <h1>My Projects</h1>
-</Container>
+</div>
+
 <CardDeck className="deck">
-    <Card  >
+    <Card className="card-style" >
     <Card.Img variant="top" src={img2}/>
-    <Card.Body className="card-style">
+    <Card.Body >
         <Card.Title>Dungeon Crawler</Card.Title>
         <Card.Text>
         This is a simple text based dungeon crawler game which was written in C++. 
         </Card.Text>
-        <Button href="https://github.com/kochkam/Dungeon-Crawler"variant="primary">View Project</Button>
+        <Button className="btn" href="https://github.com/kochkam/Dungeon-Crawler"variant="primary">View Project</Button>
     </Card.Body>
     </Card>
-    <Card >
+    <Card className="card-style">
     <Card.Img variant="top" src={img1} />
-    <Card.Body className="card-style">
+    <Card.Body >
         <Card.Title>Top Words Hash</Card.Title>
         <Card.Text>
         This project utilizes a hash map with a linked list which can count the top words used in a file.
         </Card.Text>
-        <Button href="https://github.com/kochkam/Data-Structure-Hash-Python" variant="primary">View Project</Button>
+        <Button className="btn" href="https://github.com/kochkam/Data-Structure-Hash-Python" variant="primary">View Project</Button>
     </Card.Body>
     </Card>
-    <Card >
+    <Card className="card-style">
     <Card.Img variant="top" src={img6} />
-    <Card.Body className="card-style">
+    <Card.Body >
         <Card.Title>Checkers App</Card.Title>
         <Card.Text>
         This is a checkers app I made using react. Currently working on an AI feature for the game.
         </Card.Text>
-        <Button href="https://checkers-game-kochka.herokuapp.com/"variant="primary">View Project</Button>
+        <Button className="btn"href="https://checkers-game-kochka.herokuapp.com/"variant="primary">View Project</Button>
     </Card.Body>
     </Card>
 
