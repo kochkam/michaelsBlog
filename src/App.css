@@ -6,15 +6,6 @@ body{
 
 }
 
-th {
-    text-align: center;
-    border: 1px solid black;
-    background: #018ded;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-  }
-
 .back{
 
     background-image: url('./Views/background.jpg') ;
