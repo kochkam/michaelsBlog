@@ -22,7 +22,7 @@ return(
 <div className='info'>
 <Container>
 <Accordion defaultActiveKey="0">
-  <Card>
+  <Card className="card-style">
     <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="0">
         Education
@@ -36,7 +36,7 @@ return(
       </Card.Body>
     </Accordion.Collapse>
   </Card>
-  <Card>
+  <Card className="card-style">
     <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="1">
         Objective
@@ -48,7 +48,7 @@ return(
       </Card.Body>
     </Accordion.Collapse>
   </Card>
-  <Card>
+  <Card className="card-style">
     <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="3">
         Contact Info
